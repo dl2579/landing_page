@@ -5,9 +5,16 @@ body {
     margin: 0 0;
 }
 
-.header {
+.top-block {
     background-color: #1F2937;
     flex: 1;
+    padding: 0 96px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo {
@@ -15,12 +22,18 @@ body {
     color: #F9FAF8
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
 .header li {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header .hero.heading {
+.top-block .hero.heading {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF9;
