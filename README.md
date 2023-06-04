@@ -1,1 +1,1 @@
-# landing_page
+The purpose of this project is to practice HTML and CSS through the creation of a landing page from scratch. The design images are from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page#assignment).
