@@ -1,5 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 0;
+}
+
 .header {
     background-color: #1F2937;
+    flex: 1;
 }
 
 .header-logo {
@@ -12,7 +20,7 @@
     color: #E5E7EB;
 }
 
-.header .description .heading {
+.header .hero.heading {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF9;
@@ -22,6 +30,10 @@ button {
     background-color: #3882F6;
 }
 
+.info {
+    flex: 1;
+}
+
 .info.heading {
     font-size: 36px;
     font-weight: extra-bold;
@@ -29,6 +41,7 @@ button {
 }
 
 .quote {
+    flex: 1;
     background-color: #E5E7EB;
 }
 
@@ -38,10 +51,27 @@ button {
     color: #1F2937
 }
 
-.sign-up .container {
+.bottom-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-block {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-call.container {
     background-color: #3882F6;
+    padding: 12px 48px;
+    
 }
 
 .footer {
     background-color: #1F2937;
 }
+
+
