@@ -39,13 +39,33 @@ ul {
     color: #F9FAF9;
 }
 
+.hero {
+    display: flex;
+    gap: 24px;
+}
+
+.hero .content {
+    flex: 1;
+    color: #F9FAF9;
+}
+
+.hero .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #F9FAF9;
+}
+
 button {
     background-color: #3882F6;
+    color: #F9FAF9;
 }
 
 .info {
     flex: 1;
-    padding: 0 40px;
+    padding: 0 96px;
 }
 
 .info.heading {
@@ -82,12 +102,14 @@ button {
 .quote {
     flex: 1;
     background-color: #E5E7EB;
+    padding: 0 96px;
 }
 
 .quote.text {
     font-size: 36px;
     font-weight: light italic;
-    color: #1F2937
+    color: #1F2937;
+    padding: 0;
 }
 
 .bottom-block {
@@ -105,7 +127,7 @@ button {
 
 .action-call.container {
     background-color: #3882F6;
-    padding: 12px 48px;
+    padding: 12px 96px;
     
 }
 
